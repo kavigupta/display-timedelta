@@ -5,9 +5,7 @@ def display_timedelta(delta):
     if delta < timedelta(0):
         raise ValueError("cannot display negative time delta {}".format(delta))
     result = []
-    print(delta.total_seconds())
     seconds = int(delta.total_seconds())
-    print(seconds)
     days, seconds = seconds // (3600 * 24), seconds % (3600 * 24)
 
     if days > 0:

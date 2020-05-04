@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="display_timedelta",
-    version="1.0",
+    version="1.1",
     author="Kavi Gupta",
     author_email="display_timedelta@kavigupta.org",
     description="Displays a timedelta object for human consumption.",
